@@ -18,7 +18,6 @@
 #define UMEYAMA_UMEYAMA_H_
 
 #include <opencv2/opencv.hpp>
-#include <vector>
 
 namespace utils {
 cv::Mat Umeyama(const cv::Mat& src, const cv::Mat& dst, bool with_scale);
